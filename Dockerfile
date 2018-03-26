@@ -31,6 +31,7 @@ COPY . .
 # Install app dependencies - rerun when you edit requirements.txt
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
+# For more detailed debugging for requirement install: RUN pip install --verbose -r requirements.txt
 
 # Expose port 8000 for container accessibility. You still have to add -p 8000:8000 to the docker run command
 EXPOSE 8000
