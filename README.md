@@ -1,4 +1,4 @@
-# flask-rest
+# ML-endpoint-flask
 A RESTful service based on the Flaks Python framework
 
 <a href="http://flask.pocoo.org/"><img src="images/flask-python.jpg" width=600 style="margin: auto; display: block;"/></a>
